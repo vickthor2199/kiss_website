@@ -6,25 +6,57 @@
     <title>kiddies-website</title>
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
-    <div class="header">
 
-      <div>
-        <img class="logo" src="image folder/logo.png" alt="logo" />
-      </div>
-      <div class="navigation">
-        <nav class="links">
-          <ul class="links">
-            <li class="links"><a href="login.html">login</a></li>
-            <li class="links"><a href="signup.html">sign up</a></li>
+  <body>
+    <header>
+      <div class="container px-100" id="header-div">
+        <div class="logo">
+          <img src="image folder/logo.png" alt="kd logo" />
+        </div>
+
+        <nav>
+          <ul>
+            <li><a href="signup.html">sign up</a></li>
+            <li><a href="login.html" id="login">login</a></li>
           </ul>
-          <div class="links">
-            <button class="links">click here</button>
-            <button class="links">answers</button>
-          </div>
-          <p class="links">this is the answers</p>
         </nav>
       </div>
-    </div>
+    </header>
+    <main>
+      <section>
+        <div id="hero-content" class="container px-100">
+          <div id="text-container">
+            <h1><span id="special">Learning</span>while having fun</h1>
+            <p class="text-style">
+              join over 70 kids to learn amazing stuffs and become better in
+              your area of interest.
+            </p>
+
+            <div class="btn-ctn">
+              <button class="btn" id="btn-primary">join the fun</button>
+              <button class="btn" id="btn-secondary">
+                Watch a video <span id="play">▶</span>
+              </button>
+            </div>
+          </div>
+
+          <div class="img-container">
+            <img src="image folder/kid with camera.png" alt="kid with camera"/>
+          </div>
+        </div>
+      </section>
+
+      <section id="records">
+        <div class="container px-100" id="records-div">
+          <div id="heading-ctn">
+            <h2>10 best student</h2>
+            <p class="text-style">
+              some students are already moving up with their awesome
+              performance.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
