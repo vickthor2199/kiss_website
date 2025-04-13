@@ -106,7 +106,7 @@ color: #fff;
   #text-container h1{
     font-size: 76px;
     font-weight: 700;
-    color: #2D2D2D
+    color: #2D2D2D;
     line-height: 1.2;
   }
 
@@ -158,8 +158,8 @@ color: #fff;
 
 
 .btn-ctn{
-  display: flex
-  gap: 13px;
+  display: flex;
+  gap: 13px; 
 }
  
 /* RECORDS SECTION STYLING */
