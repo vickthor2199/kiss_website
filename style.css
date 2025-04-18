@@ -173,7 +173,7 @@ table,td,th {
 .grad{
   width: 290px;
   height: 292px;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   
 }
 
