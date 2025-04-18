@@ -1,0 +1,31 @@
+@media screen and (max-width: 1230px){
+    text-container h1 {
+        font-size: 52px;
+}
+}
+
+#text-container p {
+width: 100%;
+}
+
+#img-container{
+    width: 480px;
+    height: 300px;
+}
+
+#table-ctn{
+    gap: 129px;
+
+}
+
+#table-ctn > div{
+    width: 280px;
+    height: 252px;
+}
+
+
+
+    @media screen and (max-width: 980px) {}
+        #table-ctn > div{
+
+        }
